@@ -1,0 +1,13 @@
+{
+    "name": "canal-web/access",
+    "type": "magento-module",
+    "description": "Magento module to test url rewritings... and more",
+    "require": {
+    },
+    "authors":[
+      {
+            "name":"Deborah Jean",
+            "email":"deborah@canal-web.fr"
+        }
+    ]
+}
