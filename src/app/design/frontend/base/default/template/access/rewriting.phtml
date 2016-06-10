@@ -19,11 +19,14 @@ function create() {
     a.anchor.setTo(0.5, 2);
     k.anchor.setTo(0.5, 0.5);
     game.physics.enable(k, Phaser.Physics.ARCADE);
+
     //  This gets it moving
     k.body.velocity.setTo(200, 200);
     k.body.collideWorldBounds = true;
     k.body.bounce.set(0.85);
     k.body.gravity.set(0, 170);
+
+	this.spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
 }
 
 function update() {
@@ -31,6 +34,12 @@ function update() {
         k.angle -= 4;
     } else if (game.input.keyboard.isDown(Phaser.Keyboard.RIGHT)) {
         k.angle += 4;
+    }
+    if (this.spaceKey.isDown) {
+        k.y -= 10;
+    }
+    if (this.spaceKey.isDown && k.body.onFloor()) {
+        k.body.velocity.y -= 150;
     }
 
 }
