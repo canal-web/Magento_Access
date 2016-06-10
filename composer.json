@@ -1,5 +1,5 @@
 {
-    "name": "canal-web/access",
+    "name": "canal-web/magento-access",
     "type": "magento-module",
     "description": "Magento module to test url rewritings... and more",
     "require": {
