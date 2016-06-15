@@ -1,5 +1,5 @@
-src/app/code/community/Canalweb/Access               app/code/community/Canalweb/Access              
-src/app/design/frontend/base/default/template/access app/design/frontend/base/default/template/access
-src/app/etc/modules/Canalweb_Access.xml              app/etc/modules/Canalweb_Access.xml             
-src/app/locale/fr_FR/Canalweb_AdminTheme.csv         app/locale/fr_FR/Canalweb_AdminTheme.csv        
-src/skin/frontend/base/default/images/access         skin/frontend/base/default/images/access        
+src/app/code/community/Canalweb/Access              app/code/community/Canalweb/Access             
+src/app/design/frontend/rwd/default/template/access app/design/frontend/rwd/default/template/access
+src/app/etc/modules/Canalweb_Access.xml             app/etc/modules/Canalweb_Access.xml            
+src/app/locale/fr_FR/Canalweb_AdminTheme.csv        app/locale/fr_FR/Canalweb_AdminTheme.csv       
+src/skin/frontend/base/default/images/access        skin/frontend/base/default/images/access       
